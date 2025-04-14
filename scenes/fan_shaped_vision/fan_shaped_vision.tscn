@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://4co12cys6wdn"]
+
+[ext_resource type="Script" uid="uid://coj81vu370s34" path="res://scenes/fan_shaped_vision/fan_shaped_vision.gd" id="1_fqc27"]
+
+[node name="FanShapedVision" type="Node2D"]
+script = ExtResource("1_fqc27")
+
+[node name="RayTimer" type="Timer" parent="."]
+
+[node name="VisionPolygon" type="Polygon2D" parent="."]
